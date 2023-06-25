@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tour Booking Service - Sign Up</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      width: 300px;
+      padding: 20px;
+      background-color: #ffffff;
+      margin: 0 auto;
+      margin-top: 100px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4caf50;
+      color: #ffffff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .success-message {
+      color: #008000;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Sign Up</h2>
+    <form id="signup-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <div class="success-message" id="success-message"></div>
+
+      <input type="submit" value="Sign Up">
+    </form>
+  </div>
+
+  <script>
+    // Retrieve form element
+    const signupForm = document.getElementById('signup-form');
+
+    // Add event listener to form submission
+    signupForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent form submission
+
+      // Retrieve username and password values
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      // Perform signup logic
+      // You can implement your own signup logic here, such as making an API request to a backend server
+      // For demonstration purposes, we'll just display a success message
+      const successMessage = document.getElementById('success-message');
+      successMessage.textContent = 'Signup successful!';
+
+      // Clear form inputs
+      signupForm.reset();
+    });
+  </script>
+</body>
+</html>
