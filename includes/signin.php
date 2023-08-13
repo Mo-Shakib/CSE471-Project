@@ -13,7 +13,7 @@ $results=$query->fetchAll(PDO::FETCH_OBJ);
 if($query->rowCount() > 0)
 {
 $_SESSION['login']=$_POST['email'];
-echo "<script type='text/javascript'> document.location = 'package-list.php'; </script>";
+echo "<script type='text/javascript'> document.location = 'index.php'; </script>";
 } else{
 	
 	echo "<script>alert('Invalid Details');</script>";

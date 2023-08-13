@@ -1,1 +1,2 @@
-# CSE471-Project
+# TripPlanner
+Your Tourism Management System

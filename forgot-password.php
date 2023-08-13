@@ -32,7 +32,7 @@ $error="Email id or Mobile no is invalid";
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Tourism Management System</title>
+<title>Password Reset</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Tourism Management System In PHP" />
@@ -88,9 +88,6 @@ return true;
 <div class="top-header">
 <?php include('includes/header.php');?>
 <div class="banner-1 ">
-	<div class="container">
-		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">TMS-Tourism Management System</h1>
-	</div>
 </div>
 <!--- /banner-1 ---->
 <!--- privacy ---->
@@ -102,12 +99,12 @@ return true;
 				else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
 	<p style="width: 350px;">
 		
-			<b>Email id</b>  <input type="email" name="email" class="form-control" id="email" placeholder="Reg Email id" required="">
+			<b>Email address</b>  <input type="email" name="email" class="form-control" id="email" placeholder="Reg Email id" required="">
 	</p> 
 
 	<p style="width: 350px;">
 		
-			<b>Mobile No</b>  <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Reg Mobile no" required="">
+			<b>Mobile Number</b>  <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Reg Mobile no" required="">
 	</p> 
 
 <p style="width: 350px;">

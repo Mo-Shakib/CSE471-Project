@@ -6,7 +6,7 @@ include('includes/config.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Tourism Management System</title>
+<title>TripPlanner | YourTourism Management System</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -32,7 +32,7 @@ include('includes/config.php');
 <?php include('includes/header.php');?>
 <div class="banner">
 	<div class="container">
-		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;"> TMS - Tourism Management System</h1>
+		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;"> TripPlanner - Your Tourism Management System</h1>
 	</div>
 </div>
 
@@ -46,7 +46,7 @@ include('includes/config.php');
 			</div>
 			<div class="rup-rgt">
 				<h3>UP TO USD. 50 OFF</h3>
-				<h4><a href="offers.html">TRAVEL SMART</a></h4>
+				<h4><a href="offers.php">TRAVEL SMART</a></h4>
 				
 			</div>
 				<div class="clearfix"></div>
@@ -57,7 +57,7 @@ include('includes/config.php');
 			</div>
 			<div class="rup-rgt">
 				<h3>UP TO 70% OFF</h3>
-				<h4><a href="offers.html">ON HOTELS ACROSS WORLD</a></h4>
+				<h4><a href="offers.php">ON HOTELS ACROSS WORLD</a></h4>
 				
 			</div>
 				<div class="clearfix"></div>
@@ -68,7 +68,7 @@ include('includes/config.php');
 			</div>
 			<div class="rup-rgt">
 				<h3>FLAT USD. 50 OFF</h3>
-				<h4><a href="offers.html">US APP OFFER</a></h4>
+				<h4><a href="offers.php">US APP OFFER</a></h4>
 			
 			</div>
 				<div class="clearfix"></div>
