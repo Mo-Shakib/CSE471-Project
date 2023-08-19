@@ -33,7 +33,7 @@ TripPlanner is a full stack travel booking website built using PHP, HTML, CSS, J
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Mo-Shakib/CSE471-Project.git
-   cd TripPlanner
+   cd CSE471-Project
 
 2. **Database Setup:**
 - Create a MySQL database named tripplanner.
