@@ -1,6 +1,7 @@
 # TripPlanner - Travel Booking Website
 
-![TripPlanner](screenshot.png)
+<img src="images/home-page.png" alt="TripPlanner" width="500" height="300">
+
 
 TripPlanner is a full stack travel booking website built using PHP, HTML, CSS, JavaScript, and MySQL. It allows users to book travel packages, create accounts, manage their profiles, reset passwords, ask questions, and more. Admin users have additional privileges to manage packages, view data, and interact with users.
 
@@ -43,7 +44,7 @@ TripPlanner is a full stack travel booking website built using PHP, HTML, CSS, J
 
 4. **Run the Project:**
 Start a local development server (e.g., using PHP's built-in server).
-Access the website in your browser: http://localhost:port/TripPlanner.
+Access the website in your browser: http://localhost:port/CSE471-Project.
 
 ## Usage
 
